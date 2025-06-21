@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legado de Miguel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Legado de Miguel</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#galeria">Galería</a>
+            <a href="#fullstack">FullStack</a>
+            <a href="#reflexiones">Reflexiones</a>
+            <a href="#bitacora">Bitácora</a>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Hombre en transformación, padre comprometido, desarrollador en formación y orgulloso de mis raíces.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de raíces</h2>
+        <form>
+            <label for="imagen">Agregar nueva imagen:</label>
+            <input type="file" id="imagen" name="imagen">
+            <input type="text" placeholder="Descripción de la foto">
+            <button type="submit">Subir</button>
+        </form>
+        <img src="img/fotos_de_raices.jpg" alt="Raíces familiares" style="width:100%; max-width:400px;">
+    </section>
+
+    <section id="fullstack">
+        <h2>Full Stack Developer</h2>
+        <p>Proyectos, prácticas y camino de aprendizaje en desarrollo web.</p>
+    </section>
+
+    <section id="reflexiones">
+        <h2>Reflexiones públicas</h2>
+        <pre id="reflexion"></pre>
+    </section>
+
+    <section id="bitacora">
+        <h2>Bitácora de vida</h2>
+        <pre id="bitacora-text"></pre>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
